@@ -26,20 +26,20 @@ A Retrieval-Augmented Generation (RAG) medical chatbot that provides accurate he
    git clone https://github.com/yourusername/medical-chatbot-gemini.git
    cd medical-chatbot-gemini
 
-### 1. Install dependencies
+2. Install dependencies
 
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Add your API key
+3. Add your API key
 
 ```bash
 GOOGLE_API_KEY = "YOUR API KEY"  # Thay bằng API key của bạn
 ```
 
-### 3. Run Docker & Open Local Web
+4. Run Docker & Open Local Web
 
 ```python
 docker-compose up --build
